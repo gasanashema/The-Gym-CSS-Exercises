@@ -15,7 +15,9 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
-
+    position: sticky;
+    top: 0px;
+    z-index: 5;
   
 }
 /* .header-container{
@@ -70,8 +72,21 @@ body{
 /* hero */
 .hero{
     width: 100%;
-    
+    top: 80px;
+  
+    position: absolute;
+    z-index: 0;
 }
 .video-container{
+
     width: 100%;
+    z-index: -1;
+}
+.hero-text{
+    background-color: transparent;
+    color: #fff;
+    width: 40%;
+}
+.hero-text h2{
+    font-size: 50px;
 }
